@@ -60,7 +60,7 @@ HISTFILESIZE=100000
 HISTCONTROL="erasedups:ignoreboth"
 
 # Don't record some commands
-export HISTIGNORE="&:[ ]*:exit:ls:ls -a:ll:la:ls -la:ls -l:g:git lol:vi:bg:fg:history:clear"
+export HISTIGNORE="&:[ ]*:exit:ls:ls -a:ll:la:ls -la:ls -l:g:git lol:vi:bg:fg:history:clear:rm -rf *"
 
 # Use standard ISO 8601 timestamp
 # %F equivalent to %Y-%m-%d
